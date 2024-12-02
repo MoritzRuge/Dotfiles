@@ -2641,13 +2641,8 @@ allow_remote_control yes
 #: }}}
 
 #: OWN CODE {{{
-startup_session startup.conf
+startup_session ./startup.conf
 
+include ./theme.conf # sets the kitty theme
 
-# BEGIN_KITTY_THEME
-# Gruvbox Dark
-include current-theme.conf
-# END_KITTY_THEME
 #: }}}
-
-
