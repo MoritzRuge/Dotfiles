@@ -532,6 +532,12 @@ alias pamac-unlock="sudo rm /var/tmp/pamac/dbs/db.lock"
 #moving your personal files and folders from /personal to ~
 alias personal='cp -Rf /personal/* ~'
 
+#Personal alias
+alias ytaudio="yt-dlp --format m4a -P ~/Music"
+
+alias Karthago="sudo mount -t nfs Karthago:/mnt/user/KarthagoServer /mnt/KarthagoServer/"
+alias karthago="sudo mount -t nfs Karthago:/mnt/user/KarthagoServer /mnt/KarthagoServer/"
+
 #create a file called .zshrc-personal and put all your personal aliases
 #in there. They will not be overwritten by skel.
 
